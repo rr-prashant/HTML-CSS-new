@@ -1,0 +1,17 @@
+
+.container{
+    margin: 50px;
+    display: flex;
+    gap: 10px;
+}
+
+.sub-container{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.img img{
+    width: 100%;
+    border-radius: 20px;
+}
