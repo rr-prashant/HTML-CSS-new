@@ -1,0 +1,49 @@
+.aContainer{
+    margin-top:50px;
+    margin-left: 12%;
+    margin-right: 12%;
+    margin-bottom: 50px;
+}
+
+.aContainer h1{
+    margin-bottom: 20px;
+}
+
+
+.aSub{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+.box{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    padding: 16px;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+.box img{
+    width: 100%;
+}
+
+.box p{
+    text-align: justify;
+}
+
+@media only screen and (max-width: 650px) {
+    .aSub{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media only screen and (max-width: 470px) {
+    .aSub{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
